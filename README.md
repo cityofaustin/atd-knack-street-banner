@@ -11,7 +11,9 @@ The primary reservation, work and asset management system for the Street Banner 
 - Street Banner Technicians
 
 ### Help Guides
-- **[How to Enter Applications](https://github.com/dianamartin/atd-street-banner/wiki/Street-Banner:-How-to-Enter-Applications)**
-- **[Payment Help Guide](https://github.com/dianamartin/atd-street-banner/wiki/Street-Banner:-Payment-Help-Guide)**
+- **[How to Enter Applications](https://github.com/cityofaustin/atd-street-banner/wiki/Street-Banner:-How-to-Enter-Applications)**
+- **[Payment Help Guide](https://github.com/cityofaustin/atd-street-banner/wiki/Street-Banner:-Payment-Help-Guide)**
+- **[Entering Actuals](https://github.com/cityofaustin/atd-street-banner/wiki/Street-Banner:-Entering-Actuals)
+- **[Creating Schedules](https://github.com/cityofaustin/atd-street-banner/wiki/Street-Banner:-Creating-Schedules)
 
 ![street-banner](media/data-tracker-signal-screenshot.png)
