@@ -16,4 +16,4 @@ The primary reservation, work and asset management system for the Street Banner 
 - **[Entering Actuals](https://github.com/cityofaustin/atd-street-banner/wiki/Street-Banner:-Entering-Actuals)**
 - **[Creating Schedules](https://github.com/cityofaustin/atd-street-banner/wiki/Street-Banner:-Creating-Schedules)**
 
-![street-banner](media/data-tracker-signal-screenshot.png)
+![street-banner](media/Street_Banner_Home_page_screen_shot.PNG)
