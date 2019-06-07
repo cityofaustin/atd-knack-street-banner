@@ -1,7 +1,15 @@
+
+# Before updating this file in any of the Austin Transportation repos, 
+# try to run it through a YAML linter like http://www.yamllint.com/ first. 
+# This will help identify any syntax errors in YAML that would prevent labels 
+# from being updated automatically.
+
+# Note that adding this file to a repo will overwrite all its existing labels.
+
 --- 
 labels: 
   - 
-    color: 5F7D8D
+    color: 5F7D8C
     description: ""
     name: Duplicate
   - 
@@ -12,22 +20,22 @@ labels:
     color: FF7261
     description: "Severely impacts ATD service delivery"
     name: "Impact: 1-Severe"
-    oldname: "Impact: Severe"
   - 
     color: FF9A8E
     description: "Causes a major interruption of ATD service delivery"
     name: "Impact: 2-Major"
-    oldname: "Impact: Major"
   - 
     color: FFCDCA
     description: "Deteriorates ATD service delivery"
     name: "Impact: 3-Minor"
-    oldname: "Impact: Minor"
   - 
     color: FFEEED
     description: "Does not affect ATD service delivery"
     name: "Impact: 4-None"
-    oldname: "Impact: None"
+  - 
+    color: 3E4B9E
+    description: "Contains a project's overview and status in addition to relevant assets, data, and information"
+    name: Index
   - 
     color: FF7261
     description: "No point in delivering a solution without this"
@@ -45,26 +53,25 @@ labels:
     description: "Will not be delivered at this time"
     name: "Need: 4-Won't Have"
   - 
-    color: 86B1C6
-    description: "Identifying an inventory management solution"
-    name: "Project: Warehouse Inventory"
-  - 
     color: F2FC6D
     description: "Application support"
-    name: "Team: Apps"
+    name: "Service: Apps"
+    oldname: "Team: Apps"
   - 
     color: F2FC6D
     description: "Infrastructure and engineering"
-    name: "Team: Dev"
+    name: "Service: Dev"
+    oldname: "Team: Dev"
   - 
     color: F2FC6D
     description: "Geospatial services"
-    name: "Team: Geo"
+    name: "Service: Geo"
+    oldname: "Team: Geo"
   - 
     color: F2FC6D
     description: "Product and project management"
-    name: "Team: PM"
-    oldname: "Team: Pro"
+    name: "Service: PM"
+    oldname: "Team: PM"
   - 
     color: 0B3E79
     description: "Something is not right"
@@ -77,7 +84,6 @@ labels:
     color: 0B3E79
     description: "Generating and delivering datasets and reports"
     name: "Type: Data"
-    oldname: "Type: Data & Reports"
   - 
     color: 0B3E79
     description: "User guides, developer documentation, planning documents, etc."
@@ -120,8 +126,16 @@ labels:
     name: "Type: Research"
   - 
     color: 0B3E79
+    description: "Testing for usability, security, performance, accessibility, etc."
+    name: "Type: Testing"
+  - 
+    color: 0B3E79
     description: "Request for training"
     name: "Type: Training"
+  - 
+    color: 5F7D8C
+    description: "Work in progress"
+    name: "WIP"
   - 
     color: 00BFA5
     description: "Arterial Management Division"
@@ -132,7 +146,11 @@ labels:
     name: "Workgroup: ATSD"
   - 
     color: 00BFA5
-    description: "Communications & Technology Management"
+    description: "Cooridor Program Office"
+    name: "Workgroup: CPO"
+  - 
+    color: 00BFA5
+    description: "Communications and Technology Management"
     name: "Workgroup: CTM"
   - 
     color: 00BFA5
@@ -184,5 +202,13 @@ labels:
     name: "Workgroup: SMB"
   - 
     color: 00BFA5
+    description: "Smart Mobility"
+    name: "Workgroup: SM"
+  - 
+    color: 00BFA5
     description: "Transportation Engineering"
     name: "Workgroup: TE"
+  - 
+    color: 00BFA5
+    description: "Vision Zero Program"
+    name: "Workgroup: VZ"
