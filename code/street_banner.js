@@ -88,11 +88,6 @@ $(document).on('knack-view-render.view_2821', function(event, page) {
     bigButton('ots-schedule', 'view_2821', "https://atd.knack.com/street-banners#over-the-street-schedule/", "clipboard", "Over-the-Street | Schedule");
 });
 
-$(document).on('knack-view-render.view_2960', function(event, page) {
-  // create large button on the home page
-    bigButton('maint-work-orders', 'view_2960', "https://atd.knack.com/street-banners#maintenance-work-orders/", "briefcase", "Maintenance | Work Orders");
-});
-	
 $(document).on('knack-view-render.view_2907', function(event, page) {
   // create large button on the home page
     bigButton('ots-schedule', 'view_2907', "https://atd.knack.com/street-banners#over-the-street-schedule/", "flag-checkered", "Over-the-Street | Schedule");
@@ -156,6 +151,16 @@ $(document).on('knack-view-render.view_2904', function(event, page) {
 $(document).on('knack-view-render.view_2905', function(event, page) {
   // create large button on the home page
     bigButton('ots-work-orders', 'view_2905', "https://atd.knack.com/street-banners#over-the-street-banner-work-orders/", "flag-checkered", "Over-the-Street | Work Orders");
+});
+
+$(document).on('knack-view-render.view_2960', function(event, page) {
+  // create large button on the home page
+    bigButton('maint-work-orders', 'view_2960', "https://atd.knack.com/street-banners#maintenance-work-orders/", "briefcase", "Maintenance | Work Orders");
+});
+
+$(document).on('knack-view-render.view_3097', function(event, page) {
+  // create large button on the home page
+    bigButton('signs-work-orders', 'view_3097', "https://atd.knack.com/signs-markings#my-work-orders/", "wrench", "Signs | Work Orders");
 });
 	//***MENU - SCHEDULE PAGE***
 $(document).on('knack-view-render.view_2906', function(event, page) {
